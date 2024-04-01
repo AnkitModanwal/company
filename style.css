@@ -1,0 +1,157 @@
+a{
+    text-decoration: none;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#header{
+    color: #fff;
+    background: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #fff;
+    padding: 10px 10px;
+    
+    display: block;
+}
+#menu li a:hover{
+    background-color:#c0392b;
+}
+#banner{
+    background: url('./image/image1.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 80px;
+}
+.banner-title h1{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+  
+    margin: 0;
+}
+.banner-title p{
+    color: #fff;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 7px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.testimonials img{
+    height: 10vh;
+    width: 20%;
+    border-radius: 50%;
+}
+
+#testimonials{
+    color: #fff;
+    background: url(./image/back.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+.news-post img{
+    height: 30vh;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.news-post h3{
+    font-size: 1.35rem;
+}
+.news-post h3 a{
+    color: #e74c3c;
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.post-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+a.readmore{
+    font-size: 14px;
+    color: #e74c3c;
+
+}
+a.readmore:after{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+#footer-sidebar{
+    color: #fff;
+    height: 40vh;
+    background: rgb(52, 73, 94);
+    padding: 40px 0;
+}
+.footer-widget h4:after{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer-widget a{
+    color: #fff;
+}
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.latest-news li{
+    margin-bottom: 3px;
+}
+.latest-news li:before{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+#footer{
+    color: #fff;
+    background: rgb(44, 62, 80);
+    padding: 10px 0;
+}
+#social-icons{
+    list-style: none;
+    color: #fff;
+    margin-left: 490px;
+    padding: 0;
+}
+#social-icons li{
+    display: inline-block;
+    
+}
